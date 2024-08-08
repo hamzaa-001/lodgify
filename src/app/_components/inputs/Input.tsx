@@ -44,7 +44,7 @@ const Input = ({
         {...register(id, { required })}
         placeholder=" "
         type={type}
-        className={`peer w-full p-4 pt-6 font-light bg-white border-2 rounded-md outline-none transition disabled:opacity-70 disabled:cursor-not-allowed ${
+        className={`peer w-full p-2 pt-6 font-light bg-white border-2 rounded-md outline-none transition disabled:opacity-70 disabled:cursor-not-allowed ${
           formatPrice ? "pl-9" : "pl-4"
         }
         ${
